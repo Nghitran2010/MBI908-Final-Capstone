@@ -1,0 +1,25 @@
+area,test,variant,stored_retention,recalc_retention,stored_top10,recalc_top10,retention_match,top10_match,renormalised,unadjusted_retention,unadjusted_top10
+Health,Domain weight,Engagement 0.54 / Support 0.46,90.6,90.6,,,True,True,False,90.6,
+Health,Domain weight,Engagement 0.66 / Support 0.34,96.0,96.0,,,True,True,False,96.0,
+Health,Recency thresholds,"(12, 27, 54)",97.0,97.0,,,True,True,False,97.0,
+Health,Recency thresholds,"(16, 33, 66)",97.0,97.0,,,True,True,False,97.0,
+Health,Activity thresholds,"(3, 7)",95.6,95.6,,,True,True,False,95.6,
+Health,Activity thresholds,"(5, 9)",95.4,95.4,,,True,True,False,95.4,
+Health,Resolution threshold,P70 = 48.00 hours,99.6,99.6,,,True,True,False,99.6,
+Health,Resolution threshold,P80 = 56.47 hours,99.4,99.4,,,True,True,False,99.4,
+Health,Health band boundaries,"(45, 65)",85.6,85.6,,,True,True,False,85.6,
+Health,Health band boundaries,"(55, 75)",90.8,90.8,,,True,True,False,90.8,
+Health,Exposure minimum,14 days,98.4,98.4,,,True,True,False,98.4,
+Priority,Component weight,Health concern x0.9,98.8,98.8,9.0,9.0,True,True,True,95.2,9.0
+Priority,Component weight,Health concern x1.1,98.6,98.6,10.0,10.0,True,True,True,94.8,10.0
+Priority,Component weight,Recent support urgency x0.9,97.8,97.8,10.0,10.0,True,True,True,97.4,10.0
+Priority,Component weight,Recent support urgency x1.1,98.8,98.8,9.0,9.0,True,True,True,96.2,9.0
+Priority,Component weight,Commercial exposure x0.9,98.8,98.8,9.0,9.0,True,True,True,97.4,9.0
+Priority,Component weight,Commercial exposure x1.1,97.6,97.6,10.0,10.0,True,True,True,98.4,10.0
+Priority,Component weight,Evidence concern x0.9,98.6,98.6,10.0,10.0,True,True,True,99.6,10.0
+Priority,Component weight,Evidence concern x1.1,98.6,98.6,9.0,9.0,True,True,True,100.0,9.0
+Priority,Commercial thresholds,"(0.45, 0.7, 0.85)",97.8,97.8,8.0,8.0,True,True,False,97.8,8.0
+Priority,Commercial thresholds,"(0.55, 0.8, 0.95)",98.0,98.0,8.0,8.0,True,True,False,98.0,8.0
+Priority,Priority band boundaries,"(27, 45)",87.2,87.2,10.0,10.0,True,True,False,87.2,10.0
+Priority,Priority band boundaries,"(33, 55)",89.8,89.8,10.0,10.0,True,True,False,89.8,10.0
+Priority,Exposure minimum,14 days,98.4,98.4,10.0,10.0,True,True,False,98.4,10.0

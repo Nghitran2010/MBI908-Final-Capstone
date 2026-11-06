@@ -1,0 +1,62 @@
+check,status,detail
+five CSV schema accepted,PASS,[]
+complete processing no error,PASS,[]
+500 unique account rows,PASS,
+expected health bands,PASS,"{'Healthy': 323, 'Medium': 120, 'Low': 35, 'Limited Evidence': 22}"
+expected priority bands,PASS,"{'Low': 321, 'Medium': 154, 'High': 25}"
+support urgency tiers,PASS,"{0.0: 308, 30.0: 53, 60.0: 112, 85.0: 14, 100.0: 13}"
+500 exact ranks,PASS,
+ranking descending and account id tie-break,PASS,
+priority formula all 500,PASS,max_abs_difference=0.0
+driver exactly maps to predefined advisory action,PASS,
+no commercial leading drivers,PASS,
+escalation driver precedence,PASS,
+NDC masked on Priority List in app source,PASS,
+same score and band app_ready vs scored,PASS,
+same main outputs bundled vs recomputed,PASS,bundled dataset output
+rank1 example,PASS,"('Company_176', 70.34)"
+outcome fields excluded from scoring function and UI output,PASS,
+invalid schema rejected,PASS,
+order-independent schema detection,PASS,
+missing required table rejected,PASS,
+duplicate table uploads rejected,PASS,
+valid files identified correctly,PASS,
+offline group paging: industry,PASS,not interactive Streamlit UI
+offline group paging: priority_band,PASS,not interactive Streamlit UI
+offline group paging: health_band,PASS,not interactive Streamlit UI
+offline group paging: evidence_status,PASS,not interactive Streamlit UI
+foreign-key relationships: 4/4,PASS,4/4
+repeated usage identifiers and unique composite keys,PASS,21 repeated identifiers; 0 composite duplicates
+valid usage rows and accounts,PASS,11802 rows; 486 accounts
+valid support rows and accounts,PASS,923 rows; 374 accounts
+satisfaction observations and accounts,PASS,551 rows; 306 accounts
+escalation precedence 13/13,PASS,
+full output 38 columns,PASS,38 columns including account_id key
+full output reconciliation 38/38,PASS,38/38
+boundary recency 14,PASS,100.0 expected 100
+boundary recency 15,PASS,65.0 expected 65
+boundary recency 30,PASS,65.0 expected 65
+boundary recency 31,PASS,30.0 expected 30
+boundary recency 60,PASS,30.0 expected 30
+boundary recency 61,PASS,0.0 expected 0
+boundary activity 3.99,PASS,25.0 expected 25
+boundary activity 4,PASS,60.0 expected 60
+boundary activity 7.99,PASS,60.0 expected 60
+boundary activity 8,PASS,100.0 expected 100
+health-band pipeline boundary 49.99,PASS,Health=49.99; band=Low; expected=Low
+health-band pipeline boundary 50.00,PASS,Health=50.00; band=Medium; expected=Medium
+health-band pipeline boundary 69.99,PASS,Health=69.99; band=Medium; expected=Medium
+health-band pipeline boundary 70.00,PASS,Health=70.00; band=Healthy; expected=Healthy
+priority-band real-account boundary 30.00,PASS,3/3 matching source accounts; band=Medium
+priority-band real-account boundary 50.00,PASS,2/2 matching source accounts; band=High
+priority-band observed Low upper boundary,PASS,max Low=29.90
+priority-band observed Medium lower boundary,PASS,min Medium=30.00
+health-band real-account boundary 70.00,PASS,3/3 matching source accounts
+support-score pipeline boundary zero recent tickets,PASS,actual=100.00; expected=100.00
+support-score pipeline boundary one ordinary ticket,PASS,actual=75.00; expected=75.00
+support-score pipeline boundary one high/urgent ticket,PASS,actual=50.00; expected=50.00
+support-score pipeline boundary resolution exactly 51.25h,PASS,actual=75.00; expected=75.00
+support-score pipeline boundary resolution 51.26h,PASS,actual=50.00; expected=50.00
+support-score pipeline boundary two high/urgent tickets,PASS,actual=25.00; expected=25.00
+support-score pipeline boundary recent escalation,PASS,actual=25.00; expected=25.00
+missing satisfaction pipeline modifier zero,PASS,avg_satisfaction=nan; modifier=0.00

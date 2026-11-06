@@ -1,0 +1,25 @@
+area,test,variant,band_retention_pct,top10_overlap,passes_85pct_band_rule,passes_8of10_rule
+Health,Domain weight,Engagement 0.54 / Support 0.46,90.6,,True,
+Health,Domain weight,Engagement 0.66 / Support 0.34,96.0,,True,
+Health,Recency thresholds,"(12, 27, 54)",97.0,,True,
+Health,Recency thresholds,"(16, 33, 66)",97.0,,True,
+Health,Activity thresholds,"(3, 7)",95.6,,True,
+Health,Activity thresholds,"(5, 9)",95.4,,True,
+Health,Resolution threshold,P70 = 48.00 hours,99.6,,True,
+Health,Resolution threshold,P80 = 56.47 hours,99.4,,True,
+Health,Health band boundaries,"(45, 65)",85.6,,True,
+Health,Health band boundaries,"(55, 75)",90.8,,True,
+Health,Exposure minimum,14 days,98.4,,True,
+Priority,Component weight,Health concern x0.9,98.8,9.0,True,True
+Priority,Component weight,Health concern x1.1,98.6,10.0,True,True
+Priority,Component weight,Recent support urgency x0.9,97.8,10.0,True,True
+Priority,Component weight,Recent support urgency x1.1,98.8,9.0,True,True
+Priority,Component weight,Commercial exposure x0.9,98.8,9.0,True,True
+Priority,Component weight,Commercial exposure x1.1,97.6,10.0,True,True
+Priority,Component weight,Evidence concern x0.9,98.6,10.0,True,True
+Priority,Component weight,Evidence concern x1.1,98.6,9.0,True,True
+Priority,Commercial thresholds,"(0.45, 0.7, 0.85)",97.8,8.0,True,True
+Priority,Commercial thresholds,"(0.55, 0.8, 0.95)",98.0,8.0,True,True
+Priority,Priority band boundaries,"(27, 45)",87.2,10.0,True,True
+Priority,Priority band boundaries,"(33, 55)",89.8,10.0,True,True
+Priority,Exposure minimum,14 days,98.4,10.0,True,True

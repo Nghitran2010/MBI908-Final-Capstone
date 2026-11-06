@@ -1,0 +1,8 @@
+test,numerator,denominator,result,method
+Cross-package full output reconciliation,38,38,PASS,"Account_id plus all 37 values; numeric tolerance 1e-6, exact categorical text/NA"
+Escalation driver precedence,13,13,PASS,Accounts with recent escalations
+Needs Data Check evidence statuses,22,22,PASS,Account evidence classification; UI masking checked separately in source
+Driver-action mapping,500,500,PASS,Frozen driver-action mapping
+Top-3 Priority formula A-39b19f,1,1,PASS,Weighted formula from frozen scored component values
+Top-3 Priority formula A-0be015,1,1,PASS,Weighted formula from frozen scored component values
+Top-3 Priority formula A-20736a,1,1,PASS,Weighted formula from frozen scored component values

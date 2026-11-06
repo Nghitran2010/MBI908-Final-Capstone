@@ -1,0 +1,17 @@
+Rank,Account,CSM owner,Industry,Account ID,Priority,Priority band,Health score,Health status,Data status,Review reason,Suggested action,MRR proxy
+40,Company_71,Priya Shah,EdTech,A-9b9fe9,47.14,Medium,65.73,Medium,Sufficient evidence,Recent support pressure,Review recent ticket severity and resolution pattern; coordinate follow-up if needed.,9950
+48,Company_498,Priya Shah,EdTech,A-712533,46.3,Medium,57.4,Medium,Sufficient evidence,Recent support pressure,Review recent ticket severity and resolution pattern; coordinate follow-up if needed.,882
+85,Company_0,Priya Shah,EdTech,A-2e4581,39.85,Medium,57.8,Medium,Sufficient evidence,Recent support pressure,Review recent ticket severity and resolution pattern; coordinate follow-up if needed.,836
+116,Company_358,Priya Shah,EdTech,A-5a215a,36.25,Medium,80.0,Healthy,Sufficient evidence,Recent support pressure,Review recent ticket severity and resolution pattern; coordinate follow-up if needed.,4263
+123,Company_488,Priya Shah,EdTech,A-18793f,35.0,Medium,,Needs Data Check,Needs Data Check,Insufficient evidence,Wait for or verify sufficient recent account evidence before making a confident Health judgement.,0
+139,Company_405,Priya Shah,EdTech,A-016043,33.55,Medium,70.4,Healthy,Sufficient evidence,Recent support pressure,Review recent ticket severity and resolution pattern; coordinate follow-up if needed.,494
+173,Company_489,Priya Shah,EdTech,A-9f0b68,30.42,Medium,69.15,Medium,Sufficient evidence,Recent support pressure,Review recent ticket severity and resolution pattern; coordinate follow-up if needed.,0
+211,Company_131,Priya Shah,EdTech,A-fb186e,27.0,Low,46.0,Low,Sufficient evidence,Low recent usage,Review recent adoption and check possible usage barriers.,0
+216,Company_353,Priya Shah,EdTech,A-034368,26.55,Low,69.4,Medium,Sufficient evidence,Low recent usage,Review recent adoption and check possible usage barriers.,4577
+240,Company_195,Priya Shah,EdTech,A-692f18,23.12,Low,91.25,Healthy,Sufficient evidence,Recent support pressure,Review recent ticket severity and resolution pattern; coordinate follow-up if needed.,5572
+261,Company_261,Priya Shah,EdTech,A-474ad4,21.1,Low,80.3,Healthy,Sufficient evidence,Low recent usage,Review recent adoption and check possible usage barriers.,4776
+278,Company_130,Priya Shah,EdTech,A-5c046d,19.8,Low,90.4,Healthy,Sufficient evidence,Low recent usage,Review recent adoption and check possible usage barriers.,18507
+279,Company_88,Priya Shah,EdTech,A-91e948,19.8,Low,90.4,Healthy,Sufficient evidence,Low recent usage,Review recent adoption and check possible usage barriers.,8159
+311,Company_107,Priya Shah,EdTech,A-039727,16.05,Low,90.4,Healthy,Sufficient evidence,Low recent usage,Review recent adoption and check possible usage barriers.,4975
+351,Company_362,Priya Shah,EdTech,A-5c9849,12.75,Low,82.0,Healthy,Sufficient evidence,Low recent usage,Review recent adoption and check possible usage barriers.,931
+474,Company_60,Priya Shah,EdTech,A-378b99,3.75,Low,100.0,Healthy,Sufficient evidence,No clear issue,Continue routine monitoring; no specific adverse trigger is currently identified.,784
