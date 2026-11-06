@@ -1173,7 +1173,7 @@ def add_display_evidence_columns(frame, source_mode):
     observed = (out["active_days_90_per_90_exposure"] * exposure / 90).round()
     out["ui_observed_active_days"] = observed.where(out["usage_events_90"].fillna(0) > 0, 0).astype("Int64")
     if source_mode == "Built-in demo":
-        path = Path(__file__).resolve().parent / "sample_raw_data" / "ravenstack_support_tickets(3).csv"
+        path = Path(__file__).resolve().parent / "sample_raw_data" / "ravenstack_support_tickets.csv"
         tickets = pd.read_csv(path, usecols=["account_id", "submitted_at", "closed_at"])
     else:
         tickets = st.session_state.get("ui_uploaded_ticket_raw")
